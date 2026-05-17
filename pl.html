@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polityka Prywatności — Olimp</title>
+  <style>
+    :root {
+      --navy: #1B263D;
+      --gold: #D4A12E;
+      --cream: #F5F1E8;
+      --stone: #6B6356;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      background: var(--cream);
+      color: var(--navy);
+      line-height: 1.7;
+      padding: 32px 24px;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    .nav { margin-bottom: 32px; font-size: 14px; }
+    .nav a { color: var(--stone); text-decoration: none; }
+    .nav a:hover { color: var(--gold); }
+    h1 {
+      font-size: 36px;
+      font-weight: 900;
+      letter-spacing: -1px;
+      margin-bottom: 8px;
+    }
+    .meta {
+      color: var(--stone);
+      font-size: 13px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-top: 40px;
+      margin-bottom: 12px;
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+    p, li { font-size: 16px; margin-bottom: 12px; }
+    ul, ol { padding-left: 24px; margin-bottom: 16px; }
+    strong { font-weight: 700; }
+    code {
+      background: rgba(27, 38, 61, 0.08);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-family: ui-monospace, "SF Mono", monospace;
+    }
+    a { color: var(--navy); }
+    a:hover { color: var(--gold); }
+    .highlight {
+      background: rgba(212, 161, 46, 0.12);
+      border-left: 3px solid var(--gold);
+      padding: 16px 20px;
+      margin: 16px 0;
+      border-radius: 6px;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid rgba(107, 99, 86, 0.2);
+      margin: 32px 0;
+    }
+    .footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(107, 99, 86, 0.2);
+      font-size: 13px;
+      color: var(--stone);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav"><a href="index.html">← Powrót</a> · <a href="en.html">English version</a></div>
+
+    <h1>Polityka Prywatności</h1>
+    <p class="meta">Aplikacja Olimp · Wersja 1.0 · Obowiązuje od 17 maja 2026</p>
+
+    <div class="highlight">
+      <strong>W skrócie:</strong> Olimp to aplikacja działająca lokalnie na Twoim urządzeniu. Nie tworzymy konta użytkownika, nie synchronizujemy danych z chmurą, nie sprzedajemy danych, nie wyświetlamy reklam. Jedyne dane wysyłane na zewnątrz to anonimowe raporty o awariach aplikacji.
+    </div>
+
+    <h2>1. Administrator danych</h2>
+    <p>
+      Administratorem danych osobowych przetwarzanych w związku z korzystaniem z aplikacji <strong>Olimp</strong> (dalej „Aplikacja") jest:
+    </p>
+    <p>
+      <strong>Akademia Automatyzacji</strong><br>
+      Email kontaktowy: <a href="mailto:aibiz.kontakt@gmail.com">aibiz.kontakt@gmail.com</a>
+    </p>
+
+    <h2>2. Jakie dane zbieramy</h2>
+
+    <h3>2.1. Dane przechowywane lokalnie na Twoim urządzeniu</h3>
+    <p>Aplikacja przechowuje następujące dane <strong>wyłącznie lokalnie na Twoim urządzeniu</strong> (w lokalnej bazie SQLite oraz bezpiecznym magazynie systemowym). Te dane <strong>nigdy nie opuszczają urządzenia</strong> i nie są przesyłane na żaden serwer:</p>
+    <ul>
+      <li>Historia treningów (liczba pompek, daty, czasy trwania sesji, ukończone serie)</li>
+      <li>Twój postęp w drabinie poziomów</li>
+      <li>Ustawienia aplikacji (godzina dziennego przypomnienia, preferencje)</li>
+      <li>Status ukończenia onboardingu</li>
+    </ul>
+
+    <h3>2.2. Dane wysyłane na zewnątrz</h3>
+    <p>Aplikacja wysyła <strong>wyłącznie anonimowe raporty o awariach</strong> (crash reports) do usługi Sentry. Raport o awarii zawiera:</p>
+    <ul>
+      <li>Anonimowy identyfikator instalacji (nie pozwala zidentyfikować Cię osobiście)</li>
+      <li>Model urządzenia i wersję systemu operacyjnego</li>
+      <li>Wersję aplikacji</li>
+      <li>Stack trace błędu (techniczne informacje o awarii)</li>
+    </ul>
+    <p>Raporty <strong>nie zawierają</strong> danych Twoich treningów, lokalizacji, imienia, emaila, ani żadnych danych osobowych.</p>
+
+    <h3>2.3. Czego NIE zbieramy</h3>
+    <p>Wyraźnie informujemy, że Aplikacja <strong>NIE zbiera</strong>:</p>
+    <ul>
+      <li>Twojego imienia, nazwiska, emaila ani numeru telefonu</li>
+      <li>Lokalizacji (GPS)</li>
+      <li>Listy kontaktów</li>
+      <li>Zdjęć ani plików z urządzenia</li>
+      <li>Danych z innych aplikacji</li>
+      <li>Identyfikatorów reklamowych (IDFA, AAID)</li>
+    </ul>
+
+    <h2>3. Cel i podstawa prawna przetwarzania</h2>
+    <p>Dane przetwarzamy w następujących celach:</p>
+    <ul>
+      <li><strong>Działanie Aplikacji</strong> (zapisywanie historii treningów lokalnie) — niezbędne do wykonania umowy o świadczenie usługi (art. 6 ust. 1 lit. b RODO)</li>
+      <li><strong>Diagnostyka awarii</strong> (anonimowe raporty Sentry) — uzasadniony interes administratora w utrzymaniu jakości Aplikacji (art. 6 ust. 1 lit. f RODO)</li>
+    </ul>
+
+    <h2>4. Odbiorcy danych</h2>
+    <p>Anonimowe raporty o awariach przekazujemy do następującego podmiotu przetwarzającego:</p>
+    <ul>
+      <li><strong>Functional Software, Inc. (Sentry)</strong> — usługa monitorowania błędów aplikacji. Polityka prywatności Sentry: <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">https://sentry.io/privacy/</a></li>
+    </ul>
+    <p>Dane lokalne treningów <strong>nie są przekazywane nikomu</strong> — pozostają wyłącznie na Twoim urządzeniu.</p>
+
+    <h2>5. Powiadomienia</h2>
+    <p>Aplikacja może wysyłać <strong>lokalne powiadomienia</strong> (Daily Reminder) na Twoim urządzeniu, jeśli wyrazisz na to zgodę w ustawieniach systemowych. Powiadomienia są planowane lokalnie i nie wymagają połączenia z serwerem. W każdej chwili możesz je wyłączyć w ustawieniach Aplikacji lub systemu.</p>
+
+    <h2>6. Okres przechowywania danych</h2>
+    <ul>
+      <li><strong>Dane lokalne:</strong> przechowywane na Twoim urządzeniu do momentu odinstalowania Aplikacji lub usunięcia danych w ustawieniach Aplikacji</li>
+      <li><strong>Raporty Sentry:</strong> przechowywane przez Sentry zgodnie z ich polityką (zwykle 90 dni)</li>
+    </ul>
+
+    <h2>7. Twoje prawa</h2>
+    <p>Zgodnie z RODO przysługują Ci następujące prawa:</p>
+    <ul>
+      <li><strong>Dostęp do danych</strong> — masz pełny dostęp do swoich danych lokalnych w samej Aplikacji</li>
+      <li><strong>Usunięcie danych</strong> — możesz w każdej chwili odinstalować Aplikację lub wyczyścić dane w ustawieniach systemu, co usuwa wszystkie dane lokalne</li>
+      <li><strong>Sprzeciw wobec przetwarzania</strong> — możesz zażądać usunięcia raportów Sentry pisząc na <a href="mailto:aibiz.kontakt@gmail.com">aibiz.kontakt@gmail.com</a></li>
+      <li><strong>Skarga do organu nadzorczego</strong> — masz prawo wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych (<a href="https://uodo.gov.pl" target="_blank" rel="noopener">uodo.gov.pl</a>)</li>
+    </ul>
+
+    <h2>8. Dzieci</h2>
+    <p>Aplikacja nie jest przeznaczona dla osób poniżej 13 roku życia i nie zbiera świadomie żadnych danych od dzieci poniżej tego wieku.</p>
+
+    <h2>9. Bezpieczeństwo</h2>
+    <p>Dane lokalne są przechowywane w wewnętrznej pamięci aplikacji systemu operacyjnego, chronionej standardowymi mechanizmami sandboxowania iOS / Android. Dane wrażliwe (flagi systemowe) są dodatkowo chronione przez bezpieczny magazyn systemowy (iOS Keychain / Android Keystore).</p>
+
+    <h2>10. Zmiany polityki prywatności</h2>
+    <p>Możemy aktualizować niniejszą Politykę Prywatności. O istotnych zmianach poinformujemy poprzez aktualizację daty „Obowiązuje od" na początku dokumentu oraz, jeśli to konieczne, w samej Aplikacji.</p>
+
+    <h2>11. Kontakt</h2>
+    <p>W sprawach dotyczących prywatności możesz się z nami skontaktować:</p>
+    <p>Email: <a href="mailto:aibiz.kontakt@gmail.com">aibiz.kontakt@gmail.com</a></p>
+
+    <div class="footer">
+      <p>© 2026 Akademia Automatyzacji · Olimp · Ostatnia aktualizacja: 17 maja 2026</p>
+    </div>
+  </div>
+</body>
+</html>
